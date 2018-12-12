@@ -10,6 +10,9 @@ call dein#add('nanotech/jellybeans.vim.git')
 call dein#add('majutsushi/tagbar')
 call dein#add('mkarmona/materialbox')
 call dein#add('scrooloose/nerdtree')
+call dein#add('Xuyuanp/nerdtree-git-plugin')
+call dein#add('airblade/vim-gitgutter')
+call dein#add('vim-scripts/vcscommand.vim')
 
 syntax on
 set background=dark
