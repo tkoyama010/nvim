@@ -7,9 +7,12 @@ call dein#begin(expand('~/.vim/dein'))
 call dein#add('Shougo/dein.vim')
 call dein#add('cpiger/NeoDebug.git')
 call dein#add('nanotech/jellybeans.vim.git')
+call dein#add('majutsushi/tagbar')
+call dein#add('mkarmona/materialbox')
 call dein#add('scrooloose/nerdtree')
 
 syntax on
-colorscheme jellybeans
+set background=dark
+colorscheme materialbox
 set number
 
