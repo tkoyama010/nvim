@@ -14,6 +14,7 @@ call dein#add('Xuyuanp/nerdtree-git-plugin')
 call dein#add('airblade/vim-gitgutter')
 call dein#add('vim-scripts/vcscommand.vim')
 call dein#add('endel/vim-github-colorscheme')
+call dein#add('sickill/vim-monokai')
 
 syntax on
 set background=dark
