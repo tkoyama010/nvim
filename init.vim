@@ -13,6 +13,7 @@ call dein#add('scrooloose/nerdtree')
 call dein#add('Xuyuanp/nerdtree-git-plugin')
 call dein#add('airblade/vim-gitgutter')
 call dein#add('vim-scripts/vcscommand.vim')
+call dein#add('endel/vim-github-colorscheme')
 
 syntax on
 set background=dark
