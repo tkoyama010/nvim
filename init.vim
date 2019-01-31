@@ -18,7 +18,7 @@ call dein#add('sickill/vim-monokai')
 call dein#add('tomasr/molokai')
 
 syntax on
-colorscheme molokai
+colorscheme github
 set number
 set hlsearch
 let g:syntastic_python_checkers = ["flake8"]
