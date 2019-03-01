@@ -16,6 +16,7 @@ call dein#add('vim-scripts/vcscommand.vim')
 call dein#add('endel/vim-github-colorscheme')
 call dein#add('sickill/vim-monokai')
 call dein#add('tomasr/molokai')
+call dein#add('rickhowe/diffchar.vim')
 
 syntax on
 colorscheme molokai
