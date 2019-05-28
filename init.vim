@@ -15,6 +15,7 @@ call dein#add('airblade/vim-gitgutter')
 call dein#add('vim-scripts/vcscommand.vim')
 call dein#add('endel/vim-github-colorscheme')
 call dein#add('sickill/vim-monokai')
+call dein#add('rickhowe/diffchar.vim')
 
 syntax on
 set background=dark
@@ -23,4 +24,4 @@ set number
 set hlsearch
 let g:syntastic_python_checkers = ["flake8"]
 set fileencodings=iso-2022-jp,cp932,sjis,euc-jp,utf-8
-
+let g:DiffUnit = "Char"
