@@ -17,9 +17,10 @@ call dein#add('endel/vim-github-colorscheme')
 call dein#add('sickill/vim-monokai')
 call dein#add('tomasr/molokai')
 call dein#add('rickhowe/diffchar.vim')
+call dein#add('flazz/vim-colorschemes.git')
 
 syntax on
-colorscheme monokai
+colorscheme DevC++
 set number
 set hlsearch
 let g:syntastic_python_checkers = ["flake8"]
