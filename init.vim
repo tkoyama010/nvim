@@ -24,7 +24,7 @@ syntax on
 let g:solarized_termcolors=256
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme molokai
 set number
 set hlsearch
 let g:syntastic_python_checkers = ["flake8"]
