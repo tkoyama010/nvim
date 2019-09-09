@@ -19,12 +19,13 @@ call dein#add('tomasr/molokai')
 call dein#add('rickhowe/diffchar.vim')
 call dein#add('altercation/vim-colors-solarized')
 call dein#add('Yggdroot/indentLine')
+call dein#add('sjl/badwolf')
 
 syntax on
 let g:solarized_termcolors=256
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme badwolf
 set number
 set hlsearch
 let g:syntastic_python_checkers = ["flake8"]
