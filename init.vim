@@ -2,7 +2,7 @@
 if &compatible
   set nocompatible
 endif
-set runtimepath+=~/.vim/dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=~/.vim/pack/mypackage/start/dein.vim
 call dein#begin(expand('~/.vim/dein'))
 call dein#add('Shougo/dein.vim')
 call dein#add('cpiger/NeoDebug')
