@@ -2,7 +2,7 @@
 if &compatible
   set nocompatible
 endif
-set runtimepath+=~/.vim/dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=~/.vim/pack/mypackage/start/dein.vim
 call dein#begin(expand("~/.vim/dein"))
 call dein#add("Shougo/dein.vim")
 call dein#add("cpiger/NeoDebug")
@@ -24,8 +24,7 @@ call dein#add("sjl/badwolf")
 syntax on
 let g:solarized_termcolors=256
 syntax enable
-set background=dark
-colorscheme badwolf
+colorscheme github
 set number
 set hlsearch
 let g:syntastic_python_checkers = ["flake8"]
