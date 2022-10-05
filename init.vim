@@ -24,7 +24,7 @@ call dein#add("sjl/badwolf")
 syntax on
 let g:solarized_termcolors=256
 syntax enable
-colorscheme github
+colorscheme materialbox
 set number
 set hlsearch
 let g:syntastic_python_checkers = ["flake8"]
