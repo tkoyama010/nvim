@@ -20,6 +20,7 @@ call dein#add("rickhowe/diffchar.vim")
 call dein#add("altercation/vim-colors-solarized")
 call dein#add("Yggdroot/indentLine")
 call dein#add("sjl/badwolf")
+call dein#add("github/copilot.vim.git")
 
 syntax on
 let g:solarized_termcolors=256
