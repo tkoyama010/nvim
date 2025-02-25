@@ -21,11 +21,12 @@ call dein#add("altercation/vim-colors-solarized")
 call dein#add("Yggdroot/indentLine")
 call dein#add("sjl/badwolf")
 call dein#add("github/copilot.vim.git")
+call dein#add("ellisonleao/gruvbox.nvim")
 
 syntax on
 let g:solarized_termcolors=256
 syntax enable
-colorscheme materialbox
+colorscheme gruvbox
 set number
 set hlsearch
 let g:syntastic_python_checkers = ["flake8"]
